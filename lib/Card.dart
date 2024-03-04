@@ -6,7 +6,10 @@ import 'package:glassmorphism_ui/glassmorphism_ui.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 
 class CardG extends StatelessWidget {
-  const CardG({super.key});
+  final String title;
+  final String description;
+
+  const CardG({super.key, required this.title, required this.description});
 
   @override
   Widget build(BuildContext context) {

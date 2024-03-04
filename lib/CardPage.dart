@@ -45,7 +45,7 @@ class CardPage extends StatelessWidget {
                   backgroundCardCount: 0,
                   allowUnlimitedUnSwipe: true,
                   cardBuilder: (BuildContext context, int index) {
-                    return const CardG();
+                    return const CardG(title: "ac", description: "dad",);
                   },
                 ),
               ),

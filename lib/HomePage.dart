@@ -38,32 +38,32 @@ class _HomePageState extends State<HomePage> {
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(
-                PhosphorIcons.butterfly,
-                size: 32.0,
+                PhosphorIcons.houseFill,
+                size: 30.0,
                 color: _selectedIndex == 0 ? Colors.redAccent : Colors.grey, // Modifier la couleur selon l'index sélectionné
               ),
               label: '',
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                PhosphorIcons.userFocus,
-                size: 32.0,
+                PhosphorIcons.heartFill,
+                size: 30.0,
                 color: _selectedIndex == 1 ? Colors.redAccent : Colors.grey,
               ),
               label: '',
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                PhosphorIcons.chatsCircle,
-                size: 32.0,
+                PhosphorIcons.chatCircleTextFill,
+                size: 30.0,
                 color: _selectedIndex == 2 ? Colors.redAccent : Colors.grey,
               ),
               label: '',
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                PhosphorIcons.user,
-                size: 32.0,
+                PhosphorIcons.identificationBadgeFill,
+                size: 30.0,
                 color: _selectedIndex == 3 ? Colors.redAccent : Colors.grey,
               ),
               label: '',
