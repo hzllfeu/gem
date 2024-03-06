@@ -20,7 +20,7 @@ class SplashPage extends StatelessWidget {
                   child: Image.asset("assets/images/hero.png"),
                 ),
                 SizedBox(height: 10,),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
